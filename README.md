@@ -1,2 +1,0 @@
-# ParadiGm
-Petit test .
