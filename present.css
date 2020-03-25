@@ -480,7 +480,8 @@ text-transform: none;
 }
 .zntext8 {
     line-height: 2;
-    padding: 40px 40px 20px 40px;
+    padding: 40px 80px 20px 40px;
+    text-align: right;
 }
 .zntext10 {
     line-height: 2;
@@ -728,7 +729,7 @@ footer {
     .btzn7_2 {width: 40%;}
 
     .Section8 { flex-wrap: wrap;}
-    .zntext8 {padding: 20px;background-color: #43d9b8;}
+    .zntext8 {padding: 20px;background-color: #43d9b8;text-align: left;}
 
     .znico8 {
         width: 60%;
