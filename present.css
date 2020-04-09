@@ -19,6 +19,9 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
   }
+  *:focus {
+    outline: none;
+}
 body {
     margin: 0px;
 }
@@ -197,6 +200,12 @@ body {
     cursor: pointer;
     padding-top: 0.4rem;
     height: fit-content;
+    }
+.btcss3:active {
+        outline: none;
+    }
+.btcss3:focus {
+        outline: none;
     }
 .Section1 {
     display: flex;
