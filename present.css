@@ -55,25 +55,32 @@ body {
     padding-right: 0.3rem;
 }
 .navtete {
-    /*display: block;*/
-    /*justify-content: space-around;*/
     margin: 0 0.5rem 0 0.5rem;
+    padding: 0;
     border: solid grey 0.05rem;
     border-radius: var(--radius);
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(55, 61, 73, 0.975);
 }
 .btcss {
     background-color: rgba(55, 61, 73, 0.975);
     color: white;
+    height: auto;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 10pt;
     cursor: pointer;
     transition-duration: 0.1s;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
     padding-top: 0.9rem;
     padding-bottom: 0.8rem;
-    border: solid grey 0;
+    outline: 0;
+    border-width: 0;
+    margin: 0;
+    border-style: none;
 }
 .btcss:active {
     outline: none;
@@ -167,12 +174,16 @@ body {
     margin: 0 5px 0 5px;
     color: white;
 }
+.myForm {
+    padding: 0;
+}
 .dl {
     background-color: #e7746f;
     border-color: #e7746f;
     font-size: 16pt;
     font-weight: bolder;
     text-align: left;
+    height: auto;
  }
 .btcss3 {
     background-color: #e7746f;
@@ -185,6 +196,7 @@ body {
     font-size: 14pt;
     cursor: pointer;
     padding-top: 0.4rem;
+    height: fit-content;
     }
 .Section1 {
     display: flex;

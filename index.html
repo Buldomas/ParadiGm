@@ -17,10 +17,10 @@
         <div class="bandeau AGauche">
             <div class="titre">Paradigm shift</div>
             <nav id="navetete1" class="navtete">
-                <button class="btcss bt1" data_width="2000px">Desktop</button>
-                <button class="btcss bt2">Tablet</button>
-                <button class="btcss bt2">Tablet (Portrait)</button>
-                <button class="btcss bt3" data_width="375px">Mobile</button>
+                <button id="bt1" class="btcss bt1" data_width="2000px">Desktop</button>
+                <button id="bt2" class="btcss bt2">Tablet</button>
+                <button id="bt3" class="btcss bt2">Tablet (Portrait)</button>
+                <button id="bt4" class="btcss bt3" data_width="375px">Mobile</button>
             </nav>
             <nav class="navtete2">
                 <button class="btcss2"><i class="fas fa-external-link-alt"></i></button>
@@ -35,11 +35,13 @@
                 <button class="btcss5">Back</button>
             </nav>
             <div class="navtete dl">
-                <button class="btcss3">Download (78 705)</button>
-            </div>
+                <form class="myForm" type="file" action="" data-netlify="true">
+                    <input id="btDl" class="btcss3" type="button" value="Download (78 705)">
+                </form>
+        </div>
         </div>
     </header>
-    <div class="Desktop">
+    <div id="typeAffichage" class="Desktop">
         <div class="page">
             <main>
                 <section class="Section1">
@@ -169,7 +171,7 @@
                     <div class="zn_1T_frm">
                         <div class="text2 zntext10"><span class="Gras">Auctor commodo</span> interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</div>
                         <div class="znfrm">
-                            <form class="frmsend" action="Post">
+                            <form name="contact" data-netlify="true" class="frmsend" action="Post">
                                 <input class="znchamp1" type="text" name="" id="Name1" placeholder="Name">
                                 <input class="znchamp1"type="email" name="" id="Email1" placeholder="Email">
                                 <textarea class="znchamp2" name="" id="Message" cols="30" rows="10" placeholder="Message"></textarea>
@@ -187,5 +189,6 @@
         <!--- fin de la class Page --->
     </div>
     <!--- fin de la class boite Desktop / Pad / Mobile--->
+    <script type="text/javascript" src="./present.js"></script>
 </body>
 </html>
