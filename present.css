@@ -25,6 +25,9 @@ html {
 body {
     margin: 0px;
 }
+.page {
+    transition: width 0.5s, height 0.5s;
+}
 .tete {
     display: flex;
     flex-direction: row;
